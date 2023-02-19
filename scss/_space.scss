@@ -1,0 +1,10 @@
+.space {
+    height: 1000px;
+
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $color-blue;
+    }
+}
