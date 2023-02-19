@@ -1,10 +1,29 @@
 .space {
-    height: 1000px;
+    // padding: 50px;
 
     &__title {
         text-align: center;
         text-transform: uppercase;
         font-weight: 800;
         color: $color-blue;
+
+        & h2 {
+            font-weight: 800;
+        }
     }
+
+    &__columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+.card {
+    flex: 1 1 370px;
+    background-color: grey;
+
+    & img {}
 }
