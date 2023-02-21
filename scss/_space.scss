@@ -1,7 +1,10 @@
 .space {
-    // padding: 50px;
+    background-color: #f2f2f2;
 
     &__title {
+        padding: 61px 0;
+
+        font-size: 27px;
         text-align: center;
         text-transform: uppercase;
         font-weight: 800;
@@ -15,6 +18,7 @@
     &__columns {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
         width: 100%;
         gap: 20px;
@@ -22,8 +26,15 @@
 }
 
 .card {
-    flex: 1 1 370px;
-    background-color: grey;
+    background-color: #ffff;
+    height: min-content;
 
-    & img {}
+    & img {
+        max-width: 270px;
+    }
+
+    & p {
+        text-align: center;
+        padding: 22px 0;
+    }
 }
