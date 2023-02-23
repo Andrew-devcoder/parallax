@@ -16,22 +16,18 @@
     }
 
     &__columns {
-        // display: flex;
-        // flex-direction: column;
-        // flex-wrap: wrap;
         width: 100%;
-        // gap: 30px;
-        // height: 850px;
         column-count: 3;
-        column-gap: 3%;
-        column-width: 30px;
+        column-gap: 30px;
+
+        // column-width: 30px;
 
         padding-bottom: 72px;
     }
 }
 
 .card {
-    display: inline-block;
+    margin: 0 0 30px;
     background-color: #ffff;
     height: min-content;
     max-width: 270px;
