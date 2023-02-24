@@ -1,0 +1,12 @@
+.news {
+    &__title {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $color-blue;
+    }
+
+    &__body {}
+
+    &__item {}
+}
