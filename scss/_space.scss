@@ -16,11 +16,9 @@
     }
 
     &__columns {
-        width: 100%;
         column-count: 3;
         column-gap: 30px;
 
-        // column-width: 30px;
 
         padding-bottom: 72px;
     }
@@ -30,10 +28,10 @@
     margin: 0 0 30px;
     background-color: #ffff;
     height: min-content;
-    max-width: 270px;
+    max-width: 100%;
 
     & img {
-        max-width: 270px;
+        max-width: 100%;
     }
 
     & p {
