@@ -210,3 +210,28 @@ main {
 .test {
   height: 600px;
 }
+
+.rated {
+  margin: 60px auto;
+  max-width: 100%;
+}
+.rated h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #14B9D5;
+  margin-bottom: 50px;
+}
+.rated__image {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.news__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #14B9D5;
+}
