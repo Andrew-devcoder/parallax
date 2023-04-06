@@ -9,16 +9,11 @@
         text-transform: uppercase;
         font-weight: 800;
         color: $color-blue;
-
-        & h2 {
-            font-weight: 800;
-        }
     }
 
     &__columns {
         column-count: 3;
         column-gap: 30px;
-
 
         padding-bottom: 72px;
     }
@@ -30,12 +25,13 @@
     height: min-content;
     max-width: 100%;
 
-    & img {
-        max-width: 100%;
+    &__title {
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
     }
 
-    & p {
-        text-align: center;
-        padding: 22px 0;
+    & img {
+        max-width: 100%;
     }
 }

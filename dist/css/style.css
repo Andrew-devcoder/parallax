@@ -54,12 +54,18 @@ h6 {
   margin: 0 auto;
   width: 60%;
 }
+@media screen and (max-width: 1076px) {
+  .container {
+    width: 90%;
+  }
+}
 
 .button {
   padding: 20px;
   min-width: 170px;
   border-radius: 8px;
   color: #ffffff;
+  font-size: 18px;
 }
 .button__header {
   display: flex;
@@ -149,9 +155,6 @@ h6 {
   font-weight: 800;
   color: #14B9D5;
 }
-.space__title h2 {
-  font-weight: 800;
-}
 .space__columns {
   -moz-column-count: 3;
        column-count: 3;
@@ -167,12 +170,13 @@ h6 {
   height: min-content;
   max-width: 100%;
 }
+.card__title {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
 .card img {
   max-width: 100%;
-}
-.card p {
-  text-align: center;
-  padding: 22px 0;
 }
 
 .clients__title {
