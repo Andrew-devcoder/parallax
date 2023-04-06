@@ -2,38 +2,24 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    position: relative;
-
-
+    // position: relative;
 
     &--header {
-        height: 400px;
+        min-height: 400px;
         background: url(../img/header-parallax.jpeg) no-repeat center bottom;
         background-attachment: fixed;
 
-
         &__items {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-
+            padding: 197px 0 145px;
         }
 
         &__title {
-            font-size: 1.5rem;
+            font-size: 27px;
             text-transform: uppercase;
+            text-align: center;
             font-weight: 800;
             color: $color-white;
-            width: max-content;
-            padding: 20px;
-        }
-
-        &__buttons {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 20px;
+            margin: 0 0 44px;
         }
     }
 }

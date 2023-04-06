@@ -1,0 +1,21 @@
+.button {
+    padding: 20px;
+    min-width: 170px;
+    border-radius: 8px;
+    color: $color-white;
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &--green {
+        background-color: $color-green;
+    }
+
+    &--blue {
+        background-color: $color-blue;
+    }
+}
