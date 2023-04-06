@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .clients {
     &__title {
         padding: 199px 0 54px;
@@ -22,6 +23,35 @@
         background: url(../img/center-page-parallax.jpeg) no-repeat center
             center;
         background-attachment: fixed;
+=======
+// FIXME item h2 margin-bottom and item .line margin-bottom 
+.clients {
+    height: 600px;
+    background: url(../img/center-page-parallax.jpeg) no-repeat center bottom;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: $color-white;
+        margin-bottom: 60px;
+    }
+
+    &__logo {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        & img {
+            height: 100%;
+        }
+>>>>>>> 71a06acdd82b2657c764878c152e051f12d1e930
     }
 }
 
@@ -30,6 +60,7 @@
     width: 60px;
     height: 2px;
     background-color: $color-blue;
+<<<<<<< HEAD
 }
 
 .logo {
@@ -39,3 +70,7 @@
 .test {
     height: 600px;
 }
+=======
+    margin-bottom: 60px;
+}
+>>>>>>> 71a06acdd82b2657c764878c152e051f12d1e930
