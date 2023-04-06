@@ -1,18 +1,41 @@
-    .clients {
-        & h2 {
-            padding: 10px;
-            text-align: center;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: $color-white;
-        }
-
-        &__logo {}
+.clients {
+    &__title {
+        padding: 199px 0 54px;
+        font-size: 32px;
+        text-align: center;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: $color-white;
     }
 
-    .line {
-        margin: 0 auto;
-        width: 60px;
-        height: 2px;
-        background-color: $color-blue;
+    &__logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 60px 0 200px;
     }
+
+    &--bg {
+        height: 600px;
+        background: url(../img/center-page-parallax.jpeg) no-repeat center
+            center;
+        background-attachment: fixed;
+    }
+}
+
+.line {
+    margin: 0 auto;
+    width: 60px;
+    height: 2px;
+    background-color: $color-blue;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.test {
+    height: 600px;
+}
