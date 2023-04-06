@@ -220,7 +220,7 @@ h6 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 27px;
   color: #14B9D5;
   margin-bottom: 50px;
 }
@@ -231,7 +231,8 @@ h6 {
 }
 
 .news__title {
-  font-size: 2rem;
+  font-size: 27px;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 800;
   color: #14B9D5;

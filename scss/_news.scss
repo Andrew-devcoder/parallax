@@ -1,12 +1,15 @@
 .news {
     &__title {
-        font-size: 2rem;
+        font-size: 27px;
+        text-align: center;
         text-transform: uppercase;
         font-weight: 800;
         color: $color-blue;
     }
 
-    &__body {}
+    &__body {
+    }
 
-    &__item {}
+    &__item {
+    }
 }
