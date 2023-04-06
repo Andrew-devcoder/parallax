@@ -5,11 +5,59 @@
         text-transform: uppercase;
         font-weight: 800;
         color: $color-blue;
+        margin-bottom: 50px;
     }
 
-    &__body {
+    &__items {
+        display: flex;
+        height: 258px;
+
+        &--row {
+            flex-direction: row;
+            gap: 35px;
+        }
+
+        &--square {
+            gap: 60px;
+        }
     }
 
-    &__item {
+    &__big-card {
+        display: flex;
+        flex-direction: row;
+        width: calc(80% - 35px);
+
+        & img {
+            object-fit: cover;
+            width: 55%;
+        }
+    }
+
+    &__small-card {
+        display: flex;
+        flex-direction: column;
+        height: 258px;
+        background-color: $bg-grey;
+        width: 30%;
+
+        & img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding: 41px 24px;
+    background-color: $bg-grey;
+
+    &__title {
+        &--center {
+            padding: 15px;
+            text-align: center;
+        }
     }
 }

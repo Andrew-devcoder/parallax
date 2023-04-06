@@ -66,6 +66,7 @@ h6 {
   border-radius: 8px;
   color: #ffffff;
   font-size: 18px;
+  cursor: pointer;
 }
 .button__header {
   display: flex;
@@ -215,8 +216,9 @@ h6 {
 .rated {
   margin: 60px auto;
   max-width: 100%;
+  overflow-x: hidden;
 }
-.rated h2 {
+.rated__title {
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
@@ -236,4 +238,50 @@ h6 {
   text-transform: uppercase;
   font-weight: 800;
   color: #14B9D5;
+  margin-bottom: 50px;
+}
+.news__items {
+  display: flex;
+  height: 258px;
+}
+.news__items--row {
+  flex-direction: row;
+  gap: 35px;
+}
+.news__items--square {
+  gap: 60px;
+}
+.news__big-card {
+  display: flex;
+  flex-direction: row;
+  width: calc(80% - 35px);
+}
+.news__big-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 55%;
+}
+.news__small-card {
+  display: flex;
+  flex-direction: column;
+  height: 258px;
+  background-color: #F2F2F2;
+  width: 30%;
+}
+.news__small-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding: 41px 24px;
+  background-color: #F2F2F2;
+}
+.news-card__title--center {
+  padding: 15px;
+  text-align: center;
 }
