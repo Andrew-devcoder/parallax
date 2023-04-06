@@ -127,7 +127,7 @@ h6 {
   background-attachment: fixed;
 }
 .parallax--header__items {
-  padding: 197px 0 145px;
+  padding: 127px 0 145px;
 }
 .parallax--header__title {
   font-size: 27px;
@@ -136,13 +136,6 @@ h6 {
   font-weight: 800;
   color: #ffffff;
   margin: 0 0 44px;
-}
-
-main {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
 }
 
 .space {
