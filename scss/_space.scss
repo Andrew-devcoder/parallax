@@ -16,6 +16,14 @@
         column-gap: 30px;
 
         padding-bottom: 72px;
+
+        @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0;
+            justify-content: space-between;
+        }
     }
 }
 
@@ -24,6 +32,14 @@
     background-color: #ffff;
     height: min-content;
     max-width: 100%;
+
+    @media screen and (max-width: 768px) {
+        max-width: calc(50% - 20px);
+    }
+
+    @media screen and (max-width: 425px) {
+        max-width: 100%;
+    }
 
     &__title {
         font-size: 18px;

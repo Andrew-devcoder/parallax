@@ -6,18 +6,37 @@
     font-size: 18px;
     cursor: pointer;
 
+    &:is(:hover, :focus) {
+        outline-offset: 3px;
+    }
+
     &__header {
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 20px;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            width: 200px;
+            margin: 0 auto;
+            gap: 30px;
+        }
     }
 
     &--green {
         background-color: $color-green;
+
+        &:is(:hover, :focus) {
+            outline-offset: 3px;
+        }
     }
 
     &--blue {
         background-color: $color-blue;
     }
+}
+
+.button:is(:hover, :focus) {
+    outline-offset: 3px;
 }
