@@ -159,6 +159,10 @@ h6 {
   align-items: center;
   gap: 20px;
 }
+.header__nav ul {
+  display: flex;
+  flex-direction: row;
+}
 .header__nav a {
   font-size: 15px;
   text-transform: uppercase;
