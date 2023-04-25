@@ -6,10 +6,6 @@
     font-size: 18px;
     cursor: pointer;
 
-    &:is(:hover, :focus) {
-        outline-offset: 3px;
-    }
-
     &__header {
         display: flex;
         flex-direction: row;
@@ -26,17 +22,27 @@
 
     &--green {
         background-color: $color-green;
+        border: 3px solid $color-green;
+        transition: all 0.4s;
 
         &:is(:hover, :focus) {
             outline-offset: 3px;
+            background-color: transparent;
+            scale: 1.1;
+            backdrop-filter: blur(5px);
         }
     }
 
     &--blue {
         background-color: $color-blue;
-    }
-}
+        border: 3px solid $color-blue;
+        transition: all 0.4s;
 
-.button:is(:hover, :focus) {
-    outline-offset: 3px;
+        &:is(:hover, :focus) {
+            outline-offset: 3px;
+            background-color: transparent;
+            scale: 1.1;
+            backdrop-filter: blur(5px);
+        }
+    }
 }
