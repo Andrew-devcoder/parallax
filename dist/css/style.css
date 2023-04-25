@@ -116,6 +116,23 @@ h6 {
   height: 70px;
   background-color: #1D2124;
 }
+.header a {
+  position: relative;
+  padding: 10px 5px;
+}
+.header a::after {
+  content: "";
+  position: absolute;
+  background-color: #89CA62;
+  height: 1px;
+  width: 0;
+  left: 0;
+  bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.header a:hover::after {
+  width: 100%;
+}
 @media screen and (max-width: 768px) {
   .header a {
     display: none;
