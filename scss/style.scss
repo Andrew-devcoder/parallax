@@ -1,4 +1,5 @@
 @import "_reset";
+@import "_global";
 @import "_var";
 @import "_container";
 @import "_button";
@@ -7,5 +8,7 @@
 @import "_space";
 @import "_clients";
 @import "_rated";
-@import "_news";
+// @import "_news";
 @import "_footer";
+// use displya grid for last element
+@import "_grid";

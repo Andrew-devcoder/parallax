@@ -6,6 +6,10 @@
         font-weight: 800;
         text-transform: uppercase;
         color: $color-white;
+
+        @media (max-width: 376px) {
+            padding: 100px 0 50px;
+        }
     }
 
     &__logos {

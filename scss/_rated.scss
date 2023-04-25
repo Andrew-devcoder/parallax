@@ -5,6 +5,10 @@
     max-width: 100%;
     overflow-x: hidden;
 
+    @media (max-width: 376px) {
+        display: none;
+    }
+
     &__title {
         text-align: center;
         text-transform: uppercase;
