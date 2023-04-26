@@ -9,6 +9,7 @@
         background: url(../img/header-parallax.jpeg) no-repeat center bottom;
         background-attachment: fixed;
         z-index: -3;
+        background-size: cover;
 
         &__items {
             padding: 127px 0 145px;
